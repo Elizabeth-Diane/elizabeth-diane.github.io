@@ -1,0 +1,6 @@
+---
+title: "Resume"
+format: html
+---
+
+\<iframe width="800" height="1000" src="file:///C:/Users/SurfacePro/Downloads/resume%20(1).pdf"\>\</iframe\>
