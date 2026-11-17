@@ -1,0 +1,44 @@
+BEHIND THE BEAT — SHARED PROJECT PAGE ONLY
+
+This package is an exact copy of the project folder on William Hendrix's portfolio. It contains only the music project, not his home page, resume, navigation, or entire website.
+
+ADD IT TO YOUR EXISTING QUARTO PORTFOLIO
+
+1. Unzip this file.
+2. Copy the entire data-visualization folder into the posts folder of your existing RStudio/Quarto portfolio. Keep all eight files together. If you already have a folder with this name, save a backup before replacing it.
+3. Your folder should look like:
+
+   your-portfolio/
+     _quarto.yml                 (your existing file)
+     projects.qmd                (your existing file)
+     posts/
+       data-visualization/
+         index.qmd
+         project.css
+         cover.png
+         speechiness.png
+         popularity.png
+         song-length.png
+         energy-danceability.png
+         music-slides.pdf
+
+4. Open your own portfolio project in RStudio. In the Terminal, run:
+
+   quarto render
+
+5. Check your Projects page. A standard Quarto listing with "contents: posts" will pick up the new project automatically. If your Projects page uses a manual list instead, add this link to it:
+
+   [Behind the Beat: Exploring Spotify Music Trends](posts/data-visualization/index.qmd)
+
+6. Publish using your usual workflow. For the course's GitHub Pages setup, commit the new project folder and rendered site files in GitHub Desktop, then click Push origin. Wait for GitHub Pages to finish updating.
+
+KEEP THE PROJECT IDENTICAL
+
+Keep the project text, team list, summary, slide images, and explanations unchanged. This exact copy retains the current author line, "William Grady Hendrix"; changing it to the owner of each portfolio changes only the byline. The project content stays the same. Your own website's navigation and theme are inherited, so surrounding styling can differ between sites.
+
+Mattie McGrauh's and Sara Draper's portfolio links are still pending in this version. When those links are available, everyone should make the same two link updates in index.qmd.
+
+Once published on a standard username.github.io portfolio, the page will be at:
+https://YOUR-USERNAME.github.io/posts/data-visualization/
+
+Do not copy William's whole website or replace your _quarto.yml, home page, or resume.

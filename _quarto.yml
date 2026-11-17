@@ -1,9 +1,13 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - resume.pdf
+  
 
 website:
   title: "Quarto Blog - Elizabeth Brock"
+  description: "Industrial Engineering student at the University of Arkansas"
   navbar:
     right:
       - text: Home
